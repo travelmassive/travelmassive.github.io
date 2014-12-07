@@ -650,7 +650,7 @@ ul.gallery li.item.portfolio-text
 	left: 0;
 	top: 0;
 	font-size: 11px;
-	background-color: #f05c45;
+	/*background-color: #f05c45;*/
     z-index: 120;
 }
 .item-overlay a.preview 
@@ -669,8 +669,8 @@ ul.gallery li.item.portfolio-text
 	position: absolute;
 	width: 55px;
 	height: 55px;
-	bottom: 35%;
-	right: 40%;
+	bottom: 10%;
+	right: 10%;
 	background: url(../images/video.png) center center no-repeat;
 	text-indent: -9999px;
     z-index: 110;

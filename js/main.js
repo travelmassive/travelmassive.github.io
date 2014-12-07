@@ -13,7 +13,8 @@ function checkPassword() {
     }
 }
 
-function showContent() {
+$( document ).ready(function() { 
+//function showContent() {
 
 	$(".logo").hide();
 
@@ -209,11 +210,13 @@ function showContent() {
 			jQuery("ul.gallery li").hover(function() {
 					jQuery(this).find(".item-overlay").fadeTo(250, 0.9);
 				}, function() {
-					jQuery(this).find(".item-overlay").fadeTo(250, 0);		
+					jQuery(this).find(".item-overlay").fadeTo(250, 0.3);		
 			});
 		
-	}	
-}
+	}
+
+	jQuery("ul.gallery li").find(".item-overlay").fadeTo(250, 0.3);
+});
 
 /******************************************************************************/
 /*  HELPER METHODS                                                            */
