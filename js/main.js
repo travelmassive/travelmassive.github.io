@@ -13,8 +13,8 @@ function checkPassword() {
     }
 }
 
-$( document ).ready(function() { 
-//function showContent() {
+//$( document ).ready(function() { 
+function showContent() {
 
 	$(".logo").hide();
 
@@ -216,7 +216,7 @@ $( document ).ready(function() {
 	}
 
 	jQuery("ul.gallery li").find(".item-overlay").fadeTo(250, 0.3);
-});
+}
 
 /******************************************************************************/
 /*  HELPER METHODS                                                            */
