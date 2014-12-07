@@ -14,7 +14,7 @@ function checkPassword() {
 }
 
 $( document ).ready(function() { 
-	showContent();
+	//showContent();
 });
 
 function showContent() {
