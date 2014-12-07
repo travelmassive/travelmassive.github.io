@@ -13,7 +13,10 @@ function checkPassword() {
     }
 }
 
-//$( document ).ready(function() { 
+$( document ).ready(function() { 
+	showContent();
+});
+
 function showContent() {
 
 	$(".logo").hide();
