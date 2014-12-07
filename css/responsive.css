@@ -1,0 +1,275 @@
+
+@media only screen and (max-width: 959px) 
+{
+	.menu-wrapper
+	{
+		max-width: 720px;
+	}
+	#main-menu nav ul li a
+	{
+		padding-left: 10px;
+		padding-right: 10px;	
+	}
+	#subscriberEmail
+	{
+		width: 360px;	
+	}
+	#subscribeButton
+	{
+		width: 75px;	
+	}
+	.services-content
+	{
+		float: left;
+		margin-bottom: 30px;
+		margin-top: 30px;	
+	}
+	ul.services-list li 
+	{
+		margin-bottom: 0px;	
+	}
+	.home .list_carousel
+	{
+		width: 300px;
+	}
+	a#home-next
+	{
+		margin-left: 0px;
+	}
+	.testimonials, .name  
+	{
+		width: 100%;
+	}
+	ul#about-left-slides li, ul#about-middle-slides li,  ul#about-right-slides li
+	{
+		height: 225px;
+	}
+	.about .list_carousel img
+	{
+		width: 210px;
+		height: auto;
+	}
+	span.span-testimonials
+	{
+		margin: 0px;	
+		padding-left: 20px;
+	}
+	span.span-signature
+	{
+		padding-left: 40px;
+	}
+	.name
+	{
+		text-align: left;	
+	}
+	span.span-name
+	{
+		padding-left: 20px;
+	}
+	.milestones-wrapper
+	{
+		width: 100px;	
+	}
+	ul.milestones-list img
+	{
+		float: none;	
+	}
+	span.span-number
+	{
+		float: left;
+		font-size: 64px;
+		line-height: 70px;
+	}
+	.portfolio .one-half
+	{
+		width: 450px;	
+	}
+	ul.gallery li.item {
+		width: 180px;
+		height: 135px;
+	}
+	.portfolio-wrapper
+	{
+		font-size: 14px;
+		line-height: 20px;	
+	}
+	.portfolio-quote
+	{
+		width: 31px;
+		height: 21px;	
+	}
+	.portfolio-signature
+	{
+		font-size: 11px;
+		line-height: 11px;
+	}
+	.modal
+	{
+		width: 720px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) 
+{
+	.modal
+	{
+		width: 576px;
+	}
+}
+
+@media only screen and (max-width: 767px) 
+{
+	.list_carousel 
+	{
+		width: 280px;
+		margin: 0 auto;
+	}
+	.home .list_carousel, .news .list_carousel
+	{
+		width: 100%;
+	}
+	.carousel-nav 
+	{
+		width: 140px;
+		float: left;
+		margin-bottom: 30px;	
+	}
+	.testimonials-nav
+	{
+		width: 300px;	
+		margin: 0 auto;
+	}
+	.testimonials
+	{
+		float: left;
+		width: 160px;
+	}
+	ul#about-left-slides li, ul#about-middle-slides li, ul#about-right-slides li 
+	{
+		height: 300px;
+	}
+	.about .list_carousel img
+	{
+		width: 280px;
+		height: auto;
+	}
+	.name-nav
+	{
+		width: 280px;
+		margin: 0 auto;
+	}
+	.name
+	{
+		float: left;
+		width: 140px;
+		text-align: center;
+	}
+	span.span-name
+	{
+		padding: 0px;	
+	}
+	#subscriberEmail
+	{
+		width: 330px;	
+	}
+	#subscribeButton
+	{
+		width: 70px;
+	}
+	ul.gallery li.item {
+		float: none;
+		width: 240px;
+		height: 180px;
+		margin: 0 auto;	
+	}
+	.portfolio-wrapper
+	{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.portfolio-quote
+	{
+		width: 42px;
+		height: 29px;	
+	}
+	.portfolio-signature
+	{
+		font-size: 14px;
+		line-height: 25px;
+	}
+	a.popup-close
+	{
+		display: none;
+	}
+	.portfolio .one-half
+	{
+		width: 100%;
+	}
+	.news .one-third
+	{
+		margin-bottom: 30px !important;	
+	}
+	.milestones-wrapper
+	{
+		width: 100%;
+	}
+	ul.milestones-list img
+	{
+		float: left;	
+	}
+	span.span-number
+	{
+		float: none;
+		font-size: 100px;
+		line-height: 100px;
+	}
+	span.span-milestones
+	{
+		width: 100%;
+	}
+	ul.milestones-list li        
+	{
+		margin-bottom: 30px;
+	}
+	article .article-content 
+	{
+		padding-left: 25px;
+		padding-right: 25px;	
+	}
+	article .article-content h1
+	{
+		width: 100%;
+	}
+	.map
+	{
+		height: 240px !important;	
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+{
+	.modal
+	{
+		width: 420px;
+	}
+}
+
+@media only screen and (max-width: 479px) 
+{
+	#subscriberEmail
+	{
+		width: 220px;	
+	}
+	#subscribeButton
+	{
+		width: 60px;
+	}
+	.modal
+	{
+		width: 300px;
+	}
+	.small-menu-wrapper
+	{
+		width: 300px;	
+	}
+}
