@@ -71,23 +71,6 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 		<tr>
 			<td>
 				<img src="images/loader.gif" alt="Loading..." />
-				
-				<div>
-					<p>
-					<br>
-					Wait, this document isn't publically released just yet.<br>
-					If you are reviewing, please enter your access code.<br>
-    				<input id="pwd" type="text" />
-    				<button onClick="checkPassword()">show content</button>
-    				</p>
-    				<div id="password_error" style="display: none;">
-    					<p>
-    						Sorry, invalid access code.<br>
-    						Email ian@travelmassive.com
-    					</p>
-    				</div>
-				</div>
-
 			</td>
 		</tr>
    </table>	
@@ -156,7 +139,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 					<li>
 						<div class="milestones-wrapper">
 							<!--<img src="images/coffee_icon.png" alt="milestones_image_01" />-->
-							<span class="span-number">64</span>							
+							<span class="span-number" id="stats_num_chapters"></span>							
 						</div>
 						<div class="clear"></div>
 						<p>
@@ -170,7 +153,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 				<ul class="milestones-list">
 					<li>
 						<div class="milestones-wrapper">
-							<span class="span-number">31</span>							
+							<span class="span-number" id="stats_num_chapter_countries"></span>							
 						</div>
 						<div class="clear"></div>
 						<p>
@@ -184,11 +167,11 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 				<ul class="milestones-list">
 					<li>
 						<div class="milestones-wrapper">
-							<span class="span-number">220</span>							
+							<span class="span-number" id="stats_num_events"></span>							
 						</div>
 						<div class="clear"></div>
 						<p>
-							<span class="span-milestones">Events in 2014</span>						
+							<span class="span-milestones">Events since January 2014</span>						
 						</p>
 					</li>
 				</ul>
@@ -304,7 +287,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 			</div>
 			<div class="clear"></div>
 			<div class="summary-small-white-bg m-top-50 m-bottom-60">
-				Travel Massive started over a six pack of beer on the rooftop of the YHA Hostel in Sydney Harbour in 2010. We met to talk about travel, and these events quickly grew in size each month as more people found out about our meetings that were often hidden in backpacker bars.<br><br><span>Since those days we’ve grown to a global community of thousands of members in over 60 cities worldwide</span>.			
+				Travel Massive started over a six pack of beer on the rooftop of the YHA Hostel in Sydney Harbour in 2010. We met to talk about travel, and these events quickly grew in size each month as more people found out about our meetings that were often hidden in backpacker bars.<br><br><span>Since those days we’ve grown to a global community of thousands of members in over <span class="num_cities">70</a> cities worldwide</span>.			
 			</div>
 			<div class="clear"></div>
 			<div class="two-third m-bottom-40">
@@ -918,8 +901,8 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 								<br>
 								<a href="#"><img src="images/profiles/rani_francois_marie_saad.jpg" style="height: 64px; margin-right: 8px;"></a><br>
 								<span>Rani Francois-Marie Saad</span>
-								<br>Singapore
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:rani@travelmassive.com">rani@travelmassive.com</a>
+								<br>Abacus International's Leadership Team, Singapore
+								<br><a style="color: #555; text-decoration: underline;" href="mailto:rani_saad@abacus.com.sg">rani_saad@abacus.com.sg</a>
 								<br>
 								<br>
 								<a href="#"><img src="images/profiles/kei_shibata.jpg" style="height: 64px; margin-right: 8px;"></a><br>
@@ -1059,12 +1042,12 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 								<a href="#"><img src="images/profiles/david_cynkin.jpg" style="height: 64px; margin-right: 8px;"></a><br>
 								<span>David Cynkin</span>
 								<br>TBEX, San Diego
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:dave.cynkin@travelmassive.com">david.cynkin@travelmassive.com</a>
+								<br><a style="color: #555; text-decoration: underline;" href="mailto:dave@nmxevents.com">dave@nmxevents.com</a>
 								<br>
 								<br>
 								<a href="#"><img src="images/profiles/nicole_petrak.jpg" style="height: 64px; margin-right: 8px;"></a><br>
 								<span>Nicole Petrak</span>
-								<br>ATTA, San Francisco
+								<br>Adventure Travel Trade Association,<br>San Francisco
 								<br><a style="color: #555; text-decoration: underline;" href="mailto:nicole.petrak@travelmassive.com">nicole@travelmassive.com</a>
 								<br>
 							</p>
@@ -1091,7 +1074,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 			<div class="summary-small-white-bg m-top-50 m-bottom-25">
 				Do you want to be a part of our mission to change travel?
 				<br><br>
-				<span>Join Travel Massive in over 60 cities around the world.</span>
+				<span>Join Travel Massive in over <span class="num_cities">70</a> cities around the world.</span>
 			</div>
 
 			<div class="two-third m-top-75">
@@ -1115,7 +1098,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 					<a name="contact"></a><span class="span-contact-form">Submit Changes To This Document</span>
 					This is an open, public document, so please submit your editions to ian@travelmassive.com and we will review and update this document. You can also provide you signature of support to the Travel Massive Manifesto by emailing us with your name and organisation.
 				</p>
-				<form name="contact-form" id="contact-form" action="//forms.brace.io/change@travelmassive.com" method="post">
+				<form name="contact-form" id="contact-form" action="//formspree.io/team@travelmassive.com" method="post">
 					<label for="name">Name *</label>
 					<input type="text" id="name" name="name"/>
 					<label for="name">E-mail *</label>
@@ -1182,7 +1165,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 			<div style="width: 50%; margin: auto; margin-top: 0px;">
 				<p style="text-align: left; color: #ddd; padding-top: 0px;">
 					<span>Signatures of Support.</span>
-					<br>Email change@travelmassive.com
+					<br>Email team@travelmassive.com
 					<br>Timothy O'Neil Dunne, T2Impact
 				</p>
 			</div>
@@ -1216,9 +1199,49 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 
 		    //map.setTilt(45);
 		        
-		    // Multiple Markers
-		    var markers = [
-		        ['Athens',	37.9667,	23.7167],
+		    // Fetch Chapters and lat,lons from API and display them
+		    var url = 'https://www.travelmassive.com/api/public/chapters_lat_lon?callback=?';
+			markers = []
+			$.ajax({
+			   type: 'GET',
+			    url: url,
+			    dataType: 'jsonp',
+			    success: function(data) {
+			  		for (i = 0; i < data.chapters.length; i++) {
+			       		var chapter = data.chapters[i];
+			       		markers.push([chapter.title, chapter.lat, chapter.lon]);
+			       		//console.log(chapter);
+			       	}
+			       // initialize the map with the markers from the API
+			       initMap(markers); 
+			    },
+			    error: function(e) {
+			       console.log(e.message);
+			    }
+			});
+
+			// set community stats (chapters, countries, events)
+			var url = 'https://www.travelmassive.com/api/public/stats?callback=?';
+			$.ajax({
+			   type: 'GET',
+			    url: url,
+			    dataType: 'jsonp',
+			    success: function(data) {
+			    	$("#stats_num_events").html(parseInt(data.num_events) + 50); // add 50 because historical events only go back to April 2014
+					$("#stats_num_chapters").html(data.num_chapters);
+			    	$("#stats_num_chapter_countries").html(data.num_chapter_countries);
+			    	$(".num_cities").html(data.num_chapters);
+			    },
+			    error: function(e) {
+			       console.log(e.message);
+			    }
+			});
+		
+		}
+
+		function initMap(markers) {
+
+			/*markers = [['Athens',	37.9667,	23.7167],
 				['Atlanta',	33.755,	-84.39],
 				['Austin',	30.25,	-97.75],
 				['Bangkok',	13.75,	100.4667],
@@ -1281,9 +1304,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 				['Budapest', 47.4925, 19.0514],
 				['Calgary', 51.0500, -114.0667],
 				['Miami', 25.7877, -80.2241],
-				['Newcastle', 54.9667, -1.6000]
-
-		    ];
+				['Newcastle', 54.9667, -1.6000]];*/
 
 		    // Display multiple markers on a map
 		    var infoWindow = new google.maps.InfoWindow(), marker, i;
