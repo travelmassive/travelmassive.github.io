@@ -1,3 +1,6 @@
 # not yet ready to be indexed
 User-agent: *
-Disallow: /
+Disallow: /js
+Disallow: /popup
+Disallow: /images
+Disallow: /css
