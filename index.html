@@ -723,7 +723,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 			</div>
 			<div class="clear"></div>
 			<div class="summary-small-white-bg m-top-50 m-bottom-75">
-				Since our origins as a single event with a half dozen people, we’ve grown in size to thousand of members in countries across the world.				
+				Since our origins as a single event with a half dozen people, we’ve grown in size to thousand of members in <span class="num_chapter_countries"></span> countries across the world.				
 			</div>
 			<div class="two-third m-bottom-40">
 				<p>
@@ -1233,6 +1233,7 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 					$("#stats_num_chapters").html(data.num_chapters);
 			    	$("#stats_num_chapter_countries").html(data.num_chapter_countries);
 			    	$(".num_cities").html(data.num_chapters);
+			    	$(".num_chapter_countries").html(data.num_chapter_countries);
 			    },
 			    error: function(e) {
 			       console.log(e.message);
