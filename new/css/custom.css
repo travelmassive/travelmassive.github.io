@@ -3,3 +3,8 @@
 .chapter_leader_hidden { 
 	display: none;
 }
+
+ul.tm_chapter_list li { 
+	margin-top: -10px !important;
+	overflow: hidden;
+}

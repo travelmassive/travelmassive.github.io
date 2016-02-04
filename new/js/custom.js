@@ -102,7 +102,7 @@ $( document ).ready(function() {
 						if (i > 0) {
 							html = html + '</ul></div>';
 						}
-						html = html + '<div class="col-md-2"><ul>'
+						html = html + '<div class="col-md-2"><ul class="tm_chapter_list">';
 					}
 					html = html + "<li><a target='_blank' href='" + tm_base_url + '/' + chapter.path + "'> <span class='label' style='background-color: #111;'>" + chapter.shortcode + "</span>" + chapter.title + "</a>";
 				}
