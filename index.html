@@ -1,57 +1,61 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>The Travel Massive Manifesto</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="description" content="Template by Dry Themes" />
-	<meta name="keywords" content="HTML, CSS, JavaScript, PHP, Minimal Awesomness" />
-	<meta name="author" content="DryThemes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	
-	<link rel="shortcut icon" href="favicon.png"/> 
-	
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
-	
-	<link type="text/css" rel="stylesheet" href="css/clear.css" />
-	<link type="text/css" rel="stylesheet" href="css/prettyPhoto.css" />
-	
-	<link type="text/css" rel="stylesheet" href="css/argus_grid.css" />
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
-	<link type="text/css" rel="stylesheet" href="css/responsive.css" />
-	
-	<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery.sticky.js"></script>
-	<script type="text/javascript" src="js/jquery.hashtag.js"></script>
-	<script type="text/javascript" src="js/jquery.dryMenu.js"></script>
-	<script type="text/javascript" src="js/small-menu.js"></script>
-	<script type="text/javascript" src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
-	<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
-	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="js/jquery.myHint.js"></script>
-	<script type="text/javascript" src="js/jquery.omniwindow.js"></script>
-	<script type="text/javascript" src="js/jquery.center.js"></script>
-	<script type="text/javascript" src="js/popup.js"></script>
-	<script type="text/javascript" src="js/ajax.js"></script>
-	<script type="text/javascript" src="js/portfolio.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<script type="text/javascript" src="js/respond.src.js"></script>
-	<![endif]-->
+	<link rel="shortcut icon" href="images/favicon-image.png">
+	<title>Travel Massive Manifesto</title>
 
 	<!-- facebook open graph data -->
 	<meta property="og:title" content="The Travel Massive Manifesto" />
 	<meta property="og:site_name" content="Travel Massive"/>
 	<meta property="og:url" content="http://www.travelmassive.org/" />
-	<meta property="og:description" content="Travel Massive is the world’s largest community of travel industry insiders. Travel Massive’s Mission is to unearth and connect travel insiders in every city in the world in order to empower change in travel. This is a collaborative document and we welcome members of our community to contribute to our plans." />
+	<meta property="og:description" content="Travel Massive's mission is to unearth and connect travel insiders in every city in the world in order to empower change in travel." />
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="article:publisher" content="https://www.facebook.com/travelmassive" />
 	<meta property="og:image"
-content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" />
+content="http://travelmassive.org/images/travelmassive_light_runner.jpg" />
+
+	<!-- Bootstrap Core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/fontawesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+	<link href="vendor/fontawesome/css/fa-snapchat.css" type="text/css" rel="stylesheet">
+	<link href="vendor/animateit/animate.min.css" rel="stylesheet">
+
+	<!-- Vendor css -->
+	<link href="vendor/owlcarousel/owl.carousel.css" rel="stylesheet">
+	<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+	<!-- Template base -->
+	<link href="css/theme-base.css" rel="stylesheet">
+
+	<!-- Template elements -->
+	<link href="css/theme-elements.css" rel="stylesheet">	
+	
+<!-- Responsive classes -->
+	<link href="css/responsive.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->	
+
+
+	<!-- Template color -->
+	<link href="css/color-variations/blue.css" rel="stylesheet" type="text/css" media="screen" title="blue">
+
+	<!-- LOAD GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700,600%7CRaleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
+
+	<!-- CSS CUSTOM STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css" media="screen" />
+
+    <!--VENDOR SCRIPT-->
+    <script src="vendor/jquery/jquery-1.11.2.min.js"></script>
+    <script src="vendor/plugins-compressed.js"></script>
 
 	<!-- google analytics -->
 	<script>
@@ -66,1256 +70,687 @@ content="http://localdev.travelmassive.org/images/profiles/chapter_leaders.jpg" 
 	</script>
 
 </head>
-<body onLoad="initialize()">
-	<table class="doc-loader">
-		<tr>
-			<td>
-				<img src="images/loader.gif" alt="Loading..." />
-			</td>
-		</tr>
-   </table>	
-	<div class="section home" id="home">
-		<div class="container">
-			<div class="column-510 m-top-260">
-				<div class="list_carousel left">
-					<ul id="home-slides">
-						<li>
-							Empowering Global <span>Change In Travel.</span>							
-						</li>
-						<li>
-							Join the World's Largest <span>Travel Insiders Community.</span>						
-						</li>
-						<li>
-							Are You Part Of <span>Something Massive?</span>							
-						</li>
-					</ul>
-				</div>
-				<a id="home-next" href="#"></a>				
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
-	<div class="section intro" id="intro">
-		<div id="main-menu">
-			<div class="menu-wrapper">
-				<nav>
-					<div class="logo"></div>
-					<aside class="right">
-						<ul>
-							<li class="active first"><a href="#home">Home</a></li>
-							<li><a href="#then">Then</a></li>
-							<li><a href="#who">Who</a></li>
-							<li><a href="#mission">Mission</a></li>
-							<li><a href="#values">Values</a></li>
-							<li><a href="#initiatives">Initiatives</a></li>
-							<li><a href="#structure">Structure</a></li>
-							<li><a href="#bcorp">B Corp</a></li>
-							<li class="last"><a href="#team">Team</a></li>
-						</ul>
-					</aside>
-				</nav>
-			</div>
-		</div>
-		<div class="container">
-			<div class="one-third m-top-45">
-				<div class="summary-white-bg">
-					An Open Plan For <span>Something Massive</span>.					
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-45">
-				This living document serves as a public record for our <span>Vision, Mission and Plans</span> for <span>Travel Massive</span> – the world’s largest community of travel industry insiders.				
-			</div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-45">
-				This is a <span>collaborative document</span> and we welcome members of our community to get involved and <a style="color: #555; text-decoration: underline; font-weight:" href="#contact">contribute to our plans</a>.
-			</div>
 
-			<a name="stats"></a><div class="summary-small-white-bg m-top-50 m-bottom-45">
-				Keep reading to find out how to be a part of the Travel Massive movement.
-			</div>	
-
-			<div class="one-third">
-				<ul class="milestones-list">
-					<li>
-						<div class="milestones-wrapper">
-							<!--<img src="images/coffee_icon.png" alt="milestones_image_01" />-->
-							<span class="span-number" id="stats_num_chapters"></span>							
-						</div>
-						<div class="clear"></div>
-						<p>
-							<span class="span-milestones">Chapter Cities</span>
-						</p>
-					</li>
-				</ul>
-			</div>
-
-			<div class="one-third">
-				<ul class="milestones-list">
-					<li>
-						<div class="milestones-wrapper">
-							<span class="span-number" id="stats_num_chapter_countries"></span>							
-						</div>
-						<div class="clear"></div>
-						<p>
-							<span class="span-milestones">Countries</span>
-						</p>
-					</li>
-				</ul>
-			</div>
-
-			<div class="one-third last">
-				<ul class="milestones-list">
-					<li>
-						<div class="milestones-wrapper">
-							<span class="span-number" id="stats_num_events"></span>							
-						</div>
-						<div class="clear"></div>
-						<p>
-							<span class="span-milestones">Events since January 2014</span>						
-						</p>
-					</li>
-				</ul>
-			</div>
-			
-			<div class="clear"></div>
-
-			<div>
-
-<a href="http://iconosquare.com/p/868471628546811837_42105616">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10817635_744123155662325_1626158189_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/868201630429883090_8228081">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10818057_292986100911498_1399896060_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/846128191734186244_1513424255">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10735242_708364429242015_1586255371_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/837048855581811832_326656">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10734979_1484506468487707_443175072_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/824581710565131510_43370304">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10543044_294623834061536_545159090_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/797918080121597005_178595154">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10607877_758937267504131_14734883_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/805069166876230887_11494544">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10691837_366944073470639_1080259697_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/795906558740949703_1086627585">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10623947_767834299947250_1202769907_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/774813298037556570_11494544">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10584662_270870989777647_325548223_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/759648894958271064_22365093">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10471896_754583577913982_542107461_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/746071122529994790_39186265">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10471942_1464923677083271_666781647_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/710080913216604350_253525993">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10005187_545095745610357_1993274087_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/706628590737031195_591705255">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/10246121_692324890813487_1541735379_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/684979389934382822_7245042">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/1962912_237037156483569_1111617246_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/669600957415555605_591705255">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/9b1a6688a49011e3bd140e560a0bdf91_8.jpg"></a>
-
-<a href="http://iconosquare.com/p/668999133755081208_591705255">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/8dea81d4a3e911e3acf412b651105798_8.jpg"></a>
-
-<a href="http://iconosquare.com/p/668999457320468988_591705255">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/9b30cd80a3e911e3a742120ef9859af7_8.jpg"></a>
-
-<a href="http://iconosquare.com/p/645221244782584833_104944936">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/1737225_1443109265920756_1729135593_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/612613841918473536_201765620">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/1169701_185478914979083_759497194_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/603605793865229209_595828351">
-<img style="width: 128px; height: 128px;" src="/images/travelmassive/1170522_580116685374734_262757996_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/856785991950547831_1478163981">
-	<img style="width: 128px; height: 128px;" src="/images/travelmassive/10522255_1523215361254570_852944696_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/838097357173424173_591705255">
-	<img style="width: 128px; height: 128px;" src="/images/travelmassive/10731539_721214374629162_974179321_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/837028837990356115_474927836">
-	<img style="width: 128px; height: 128px;" src="/images/travelmassive/914772_409017652579304_1652213144_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/817217064866170837_261043856">
-	<img style="width: 128px; height: 128px;" src="/images/travelmassive/923787_293895314135337_466696872_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/816131505346761475_19023251">
-	<img style="width: 128px; height: 128px;" src="/images/travelmassive/10665520_1489524704645624_154787582_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/810361765540255545_724406396">
-	<img style="width: 128px; height: 128px;" src="/images/travelmassive/10654852_845797672111545_1417382838_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/792679411565256136_32166846">
-	<img style="width: 128px; height: 128px;" src="/images/travelmassive/10597294_572350682886949_1919967812_n.jpg"></a>
-
-<a href="http://iconosquare.com/p/437547392481368763_340134101">
-	<img style="width: 128px; height: 128px;" src="/images/travelmassive/cf2475e8a8f811e28b9422000a1f8af5_7.jpg"></a>
-
-</div>
-
-<div class="milestones-wrapper">
-	<span class="span-number">#TRAVELMASSIVE</span>	
-</div>
-
-		</div>
-	</div>
-			
-			<div class="clear"></div>
-		</div>
-	</div>	
-	<div class="section then" id="then">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-white-bg">
-					Creating The
-					<span>Future Of Travel</span>.					
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-60">
-				Travel Massive started over a six pack of beer on the rooftop of the YHA Hostel in Sydney Harbour in 2010. We met to talk about travel, and these events quickly grew in size each month as more people found out about our meetings that were often hidden in backpacker bars.<br><br><span>Since those days we’ve grown to a global community of thousands of members in over <span class="num_cities">70</span> cities worldwide</span>.			
-			</div>
-			<div class="clear"></div>
-			<div class="two-third m-bottom-40">
-				<p>We based our meetings on three simple rules – to be <span>open</span> to all the travel industry, to be <span>free</span> to attend, and to encourage people to <span>connect and share globally</span>. These founding principles started the first chapters of Travel Massive in Toronto, London and San Francisco and created the beginnings of our global network in early 2011.
-				</p>
-
-				<p>Together we’ve created a worldwide movement that is making an impact in travel.</p>
- 
-				<p>Wherever you are right now, look out the window and think about why you travel. We travel for adventure, to learn new things, to meet new people, to challenge ourselves, to have new experiences, to see lives from another perspective, to grow ourselves, to reach out and explore, and for a million other reasons. Travel can transform lives and change our worlds.</p>
-				 
-				<p>As pioneers, leaders and influencers of the travel industry, we have a responsibility for influencing how and where people will travel and for creating the experiences they will have.</p>
-				 
-				<p>Innovations and ideas from our community will create new ways to dream, plan, arrive, explore and to share our journeys.</p>
-				 
-				<p>Travel Massive is bringing new ideas, collaboration, innovation, diversity and new talent to the travel industry. We are unearthing innovation around the world, bridging gaps across verticals, connecting people, building new relationships, and fostering collaboration and shared learning about how we can make travel truly better.</p>
-				 
-				<p>We are creating a new era of exploration for a new generation of travelers.</p>
-			</div>
-			<div class="one-third last m-bottom-40">
-				<p>The travel industry is a worldwide phenomenon that involves every country in the world and is one of the largest, most globally integrated industries on the planet.</p>
-				<p><span>The global travel industry accounts for 9% of global GDP and 1 in 11 jobs. International tourism arrivals exceeded 1 billion this past year for the first time ever. (Source: World Tourism Organization)</span></p>
-			</div>
-			<div class="summary-small-dark-bg m-top-50 m-bottom-45">
-				Travel Massive connects us because we see travel as a tool to transform people’s lives and as a means of changing the world.
-			</div>
-			<div class="clear"></div>
-			<div class="one-third">
-				<div class="list_carousel">
-					<ul id="about-left-slides">
-						<li>
-							<img src="images/about_image_01.jpg"  alt="team_memeber_image" />							
-						</li>
-						<li>
-							<h3 class="m-bottom-30">In San Francisco...</h3>
-							"We need to think of travel as more of an authentic, immersive and life-changing experience. If it becomes increasingly possible for everyone to travel, I think the world would ultimately be a peaceful, more connected place."
-							<br>
-							- <a href="http://www.travelmassive.com/blog/2014/09/member-spotlight-esha-gupta-of-eatwith/" style="color: #555; text-decoration: underline;">Esha Gupta, EatWith</a>
-						</li>
-					</ul>
-				</div>
-				<div class="name-nav">
-					<div class="name">
-						<span class="span-name">Esha Gupta</span>			
-					</div>
-					<div class="carousel-nav">
-						<a id="about-left-prev" class="prev" href="#"></a>
-						<a id="about-left-next" class="next" href="#"></a>						
-					</div>
-				</div>
-			</div>
-			<div class="one-third">
-				<div class="list_carousel">
-					<ul id="about-middle-slides">
-						<li>
-							<img src="images/about_image_02.jpg" alt="team_memeber_image" />							
-						</li>
-						<li>
-							<h3 class="m-bottom-30">In Athens...</h3>
-							"As I was looking for bloggers and travel influencers for several collaborations, I came across the community. I was instantly inspired by the idea and unique initiative to bring bloggers, brands, and influencers together."
-							<br>
-							- <a href="http://www.travelmassive.com/blog/2014/09/leader-of-the-pack-alexia-of-athens/" style="color: #555; text-decoration: underline;">Alexia Kotsi, TravelPlanet24</a>
-						</li>
-					</ul>
-				</div>
-				<div class="name-nav">
-					<div class="name">
-						<span class="span-name">Alexia Kotsi</span>						
-					</div>
-					<div class="carousel-nav">
-						<a id="about-middle-prev" class="prev" href="#"></a>
-						<a id="about-middle-next" class="next" href="#"></a>						
-					</div>
-				</div>	
-			</div>
-			<div class="one-third last">
-				<div class="list_carousel">
-					<ul id="about-right-slides">
-						<li>
-							<img src="images/about_image_03.jpg" alt="team_memeber_image" />							
-						</li>
-						<li>
-							<h3 class="m-bottom-30">In Moscow...</h3>
-							"Russia has about 150-200 online travel projects and we try to unite them with online travel professionals at Travel Massive meet ups. It’s important for us personally because it helps us connect with travel communities who are like-minded and passionate about exploring."<br>
-							- <a href="http://www.travelmassive.com/blog/2014/11/valentin-moscow-travel-massive/" style="color: #555; text-decoration: underline;">Valentin Dombrovsky, Excursopedia</a>
-						</li>
-					</ul>
-				</div>
-				<div class="name-nav">
-					<div class="name">
-						<span class="span-name">Valentin Dombrovsky</span>						
-					</div>
-					<div class="carousel-nav">
-						<a id="about-right-prev" class="prev" href="#"></a>
-						<a id="about-right-next" class="next" href="#"></a>						
-					</div>
-				</div>	
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
-	<div class="section who" id="who">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-white-bg">
-					Who
-					is <br>
-					<span>Travel Massive?</span>					
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-60">
-				Travel Massive is many things to many people, but at our core is a network of locally organized communities of <span>travel industry insiders</span> who care about <span>making travel better</span>.
-			</div>
-			
-			<div class="one">
-				<ul class="gallery">
-					<li class="item video">
-						<img src="images/portfolio/thumbs/small_image_01.jpg" alt="portfolio_image_01" />
-						<div class="item-overlay">
-							<div>
-								<a href="http://vimeo.com/108474672" class="preview_video" data-rel="prettyPhoto[web]">preview</a>									
-							</div>					
-						</div>
-					</li>
-					<li class="item text portfolio-text">
-						<div class="portfolio-wrapper">
-							<div>We are travel insiders who want to improve travel.</div>
-							<div class="signature-wrapper">
-								<div class="portfolio-quote"></div>
-							</div>
-						</div>
-					</li> 
-					<li class="item video">
-						<img src="images/portfolio/thumbs/small_image_02.jpg" alt="portfolio_image_02" />
-						<div class="item-overlay">
-							<div>
-								<a href="http://vimeo.com/111918984" data-rel="prettyPhoto[web]" class="preview_video"></a>								
-							</div>					 
-						</div>	
-					</li>
-					<li class="item text portfolio-text">
-						<div class="portfolio-wrapper">
-							We are travel industry change makers, leaders and warriors.
-							<div class="signature-wrapper">
-								<div class="portfolio-quote"></div>
-							</div>
-						</div>
-					</li>
-					<li class="item text portfolio-text">  
-						<div class="portfolio-wrapper">
-							We are thoughtful provocateurs of the status quo and travel industry visionaries.
-							<div class="signature-wrapper">
-								<div class="portfolio-quote"></div>
-							</div>
-						</div>
-					</li>
-					<li class="item video">
-						<img src="images/portfolio/thumbs/small_image_03.jpg" alt="portfolio_image_03" />
-						<div class="item-overlay">
-							<div>
-								<a href="http://www.youtube.com/watch?v=yoaoZf4XP2U" data-rel="prettyPhoto[web]" class="preview_video"></a>								
-							</div>					 
-						</div>
-					</li>	
-					<li class="item lorem portfolio-text">
-						<div class="portfolio-wrapper">
-							We are established travel companies, continually striving to innovate and grow.
-							<div class="signature-wrapper">
-								<div class="portfolio-quote"></div>
-							</div>
-						</div>
-					</li>
-					<li class="item video">
-						<img src="images/portfolio/thumbs/small_image_05.jpg" alt="portfolio_image_05" />
-						<div class="item-overlay">
-							<div>
-								<a href="http://www.youtube.com/watch?v=UJM3mpOM45Q" data-rel="prettyPhoto[web]" class="preview_video">preview</a>								
-							</div>					
-						</div>
-					</li>
-					<li class="item video">
-						<img src="images/portfolio/thumbs/small_image_06.jpg" alt="portfolio_image_06" />
-						<div class="item-overlay">
-							<div>
-								<a href="http://vimeo.com/103247914#t=1m27s" data-rel="prettyPhoto[web]" class="preview_video">preview</a>							
-							</div>					
-						</div>
-					</li>
-					<li class="item lorem portfolio-text">
-						<div class="portfolio-wrapper">
-							We are travel entrepreneurs and startups, creating new ideas, innovations and concepts.
-							<div class="signature-wrapper">
-								<div class="portfolio-quote"></div>
-								<div class="portfolio-signature">—&nbsp;Samuel Johnson</div>
-							</div>
-						</div>
-					</li>
-					<li class="item video">
-						<img src="images/portfolio/thumbs/small_image_07.jpg" alt="portfolio_image_07" />
-						<div class="item-overlay">
-							<div>
-								<a href="http://vimeo.com/95363395" data-rel="prettyPhoto[web]" class="preview_video">preview</a>								
-							</div>					
-						</div>
-					</li>
-					<li class="item lorem portfolio-text"> 
-						<div class="portfolio-wrapper">
-							We are generators of new travel digital media, inspiring others to follow our footsteps.
-							<div class="signature-wrapper">
-								<div class="portfolio-quote"></div>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-
-			<div class="clear"></div>
-
-			<div class="summary-small-white-bg m-top-50 m-bottom-10">
-				Travel Massive membership is free and open to anyone who is involved in the travel industry and who believes in our <a href="#values" style="color: #555; text-decoration: underline;">values</a> and <a href="#mission" style="color: #555; text-decoration: underline;">mission statement</a>.
-			</div>
-
-			<div class="clear"></div>
-
-		</div>
-	</div>
-
-	<div class="section mission" id="mission">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-white-bg">
-					<span>A New Mission</span>
-					With a
-					Purpose.					
-				</div>
-			</div>
-			<div class="clear"></div>
-
-			<div class="summary-small-white-bg m-top-50 m-bottom-45">
-				<span>Travel Massive’s Mission is to unearth and connect travel insiders in every city in the world in order to empower change in travel.</span>				
-			</div>
-			<div class="clear"></div>
-			<div class="two-third m-bottom-40">
-				<p>As the world’s largest open travel industry community, we are helping to connect the people, ideas, skills and resources that contribute to creating and developing the future of travel.</p>
- 
-				<p>Now it’s time for us to have a mission that defines and connects our community with a purpose.</p>
-			</div>
-			<div class="one-third m-bottom-40 last">
-				<p>
-					Our new global mission builds on our founding values and guides a path for us to build an organization that can truly make a positive change in the world.
-				</p>
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
-
-	<div class="section values" id="values">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-white-bg">
-					Building
-					on <span>Our
-					Values</span>.					
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-60">
-				Travel Massive has always been an open and collaborative community founded on three simple principles – to be open to everyone in the travel industry, to be free to participate, and to connect and share globally.
-				<br><br>
-				These principles have guided us to now, but as we’ve grown our impact has become bigger. In addition to our founding principles, we’ve created the following <span>Community Values</span>:
-			</div>
-
-			<div class="clear"></div>
-
-			<!-- workaround: for some reason we need this otherwise the next list_carousel is cut off on mobile -->
-			<div class="list_carousel" style="display: none;">
-				<ul id="news-slides">
-					<li>
-						<div class="one-third m-bottom-60">
-						</div>
-					</li>
-				</ul>
-			</div>
-
-			<div class="list_carousel">
-				<ul id="news-slides">
-					<li>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Building Meaningful Partnerships
-</h2>
-							<p>
-								We want to help our members build meaningful, trusted relationships to help them be more successful in their jobs and businesses. Partnerships are the backbone of the travel industry and if we can help to build better relationships we can make the travel industry even more successful.
-							</p>
-						</div>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Fostering Innovation And Big Ideas</h2>
-							<p>
-								We want to help the industry develop real innovation and support those who are tackling big ideas that can make fundamental shifts in travel. By providing a collaborative community and network that helps people share ideas and learn, we can foster innovation at a global level. We want to help those creating big ideas to have access to partners, resources and support.
-							</p>
-						</div>
-						<div class="one-third last m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Supporting Diversity And New Talent</h2>
-							<p>
-								We want to enable the travel industry’s growth and success with new talent through learning, skills development and mentorship. We also want to develop more diversity through initiatives that widen the representation of the industry and encourage more people to join.							
-							</p>
-						</div>
-						<div class="one-third">
-							<h2 class="m-bottom-25 read-more">Empowering Change In Travel</h2>
-							<p>
-								We want to see that our efforts underpin our mission to improve travel and to make our jobs and roles have a purpose that benefits every person in the world. Travel is an incredibly powerful tool for making the world a better place. We want to inspire a change in the way we travel that brings more meaning to people’s lives and that truly benefits the societies that we visit.							
-							</p>
-						</div>
-						<div class="one-third">
-							<h2 class="m-bottom-25 read-more">Promoting Responsible Travel</h2>
-							<p>
-								Travel impacts the entire world – the development of the travel industry has a responsibility to ensure that we reduce our impact on the environment and local societies. Tourism will grow to a level where the sustainability of certain destinations and attractions must have the access limited. It is our job to see that society as a whole can continue to enjoy travel without risk of damaging our environment.
-							</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
-
-	<div class="section initiatives" id="initiatives">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-white-bg">
-					<span>Key Initiatives</span>					
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-75">
-				Now that we’ve defined our <a href="#mission" style="color: #555; text-decoration: underline;">mission statement</a>, <a href="#values" style="color: #555; text-decoration: underline;">core values</a>, and <a href="#values" style="color: #555; text-decoration: underline;">community values</a>, we can implement initiatives that support these.				
-			</div>
-			<div class="clear"></div>
-			<div class="two-third m-bottom-40">
-				<p>Travel Massive Initiatives can be implemented in a number of different ways that determine the nature of the initiative and whether it is a volunteer initiative or a paid-for initiative.
-				</p>
-
-				<p><span>Volunteer Initiative</span> means – Travel Massive volunteers (such as chapter leaders) implement the initiative and are supported by the Global Team (who are supported by for-profit initiatives).
-				</p>
-
-				<p><span>Global Team Initiative</span> means – The Travel Massive Global Team implements the initiative. This means someone is financially paid to deliver the initiative.</p>
-
-				<p><span>Partnership Initiative</span> means – The initiative is implemented via a partnership agreement with a 3rd party entity. The partnership must satisfy the Travel Massive Community Values and Mission Statement. The partnership may apply shared costs as well as for-profit revenue sharing.</p>
-
-				<p><span>Future Initiative</span> means – The initiative is a future idea and seeking leadership.</p>
-
-				<p>The following is a brief overview of Travel Massive Initiatives either being currently implemented or planned.</p>
-			</div>
-			<div class="summary-small-dark-bg m-top-50 m-bottom-45">
-				Initiatives are led by an appointed leader and may be supported by by small teams to deliver the initiative to the community.
-			</div>
-
-			<div class="clear"></div>
-
-			<div class="list_carousel">
-				<ul id="news-slides">
-					<li>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Travel Massive Community<br>(Volunteer Initiative)</h2>
-							<p>
-								Travel Massive Chapters and events have been the foundation of the Travel Massive movement. Chapter Leaders are local leaders who create and connect the local Travel Massive community through locally organized events. Travel Massive events are non-profit but may be supported by local industry sponsors who pay for the cost of events (such as venue hire, drinks).
-								<br>Join the community at <a style="color: #555; text-decoration: underline;" href="http://www.travelmassive.com">travelmassive.com</a>
-							</p>
-						</div>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Travel Massive Platform<br>(Global Team)</h2>
-							<p>
-								The platform will provide a central place for membership and event management. The platform will allow members to host their own individual and company profiles, explore and connect with other travel massive members, and join their Travel Massive chapters. It will be free for members to sign up to the platform. The platform will be mobile-based and be released under an open-source license.
-								<br>Learn more at <a style="color: #555; text-decoration: underline;" href="http://www.massiveplatform.com">massiveplatform.com</a>
-							</p>
-						</div>
-						<div class="one-third last m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Community Partnerships<br>(Global Team)</h2>
-							<p>
-								The Global Team will implement a sponsorship model to provide additional engagement and benefits to the Travel Massive Community. The community partner must align with Travel Massive’s values and mission. The partnership will be managed as a commercial relationship and will deliver sponsorship revenues so that Travel Massive’s Global Team can support our volunteers and community base.							
-							</p>
-						</div>
-						<div class="one-third">
-							<h2 class="m-bottom-25 read-more">Travel Massive<br>Global Gathering<br>(Partnership Initiative)</h2>
-							<p>
-								Travel Massive Global Gatherings will bring together the Chapters Leaders of our community to meet, learn, and collaborate. Our Global Gatherings will provide an independent event for guiding the future of Travel Massive and provide collaborative workshops and meetings to shape the future of travel. We will work with Travel Massive partners and travel events to host our gatherings.							
-							</p>
-						</div>
-						<div class="one-third">
-							<h2 class="m-bottom-25 read-more">Travel Massive<br>Innovation Labs<br>(Partnership Initiative)</h2>
-							<p>
-								Travel Massive Labs will provide co-working spaces for our members in key travel innovation hubs around the world to connect travel industry innovators with the world’s leading travel brands and companies. We will partner with existing co-working spaces or labs or develop our own with the support of sponsors where most appropriate.
-							</p>
-						</div>
-						<div class="one-third last m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Travel Massive<br>Road Trips<br>(Partnership Initiative) </h2>
-							<p>
-								Travel Massive Road Trips is an initiative to venture into new regions of the world and connect our members with local tourism and travel industries through new media generation.  We will establish partnerships with travel brands and DMO’s (Destination Marketing Organizations) to showcase and explore tourism and travel destinations with leading travel bloggers, writers and filmmakers.
-							</p>
-						</div>
-					</li>
-					<li>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Travel Massive Marketplace<br>(Future)</h2>
-							<p>
-								A community marketplace for ideas and requirements in the travel industry.
-							</p>
-						</div>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Travel Massive Underground<br>(Future)</h2>
-							<p>
-								A collaborative resource for travel hacking and travel technology developers.  
-							</p>
-						</div>
-						<div class="one-third last m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Travel Massive Ventures<br>(Future)</h2>
-							<p>
-								A platform for matching startups and entrepreneurs with the right investors, mentors and advisors.						
-							</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
-
-	<div class="section structure" id="structure">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-white-bg">
-					<span>Travel Massive Structure</span>			
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-75">
-				Since our origins as a single event with a half dozen people, we’ve grown in size to thousand of members in <span class="num_chapter_countries" style="font-weight: normal;"></span> countries across the world.				
-			</div>
-			<div class="two-third m-bottom-40">
-				<p>
-					Our structure has evolved as a requirement of organizing Travel Massive on a global scale and the necessities of supporting our community and Chapter Leaders. The Travel Massive structure will evolve and adapt as we grow. We will strive to provide a structure that is scalable and transparent, and that allows our community to have a say.
-				</p>
-				<p>
-					Our organizational structure is based on the following operational groups:
-				</p>
-			</div>
-		
-			<div class="clear"></div>
-
-			<div class="list_carousel">
-				<ul id="news-slides">
-					<li>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Global Team</h2>
-							<p>
-								 Our founders, global community managers, and staff who support our community and chapter leaders on a full-time or part-time basis.
-							</p>
-						</div>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Chapter Leaders</h2>
-							<p>
-								Our volunteer chapter leaders who arrange regular events and are the local leaders of the Travel Massive community in their cities.
-							</p>
-						</div>
-						<div class="one-third last m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Ambassadors</h2>
-							<p>
-								Members who evangelize Travel Massive’s mission and values and have personally committed to supporting and promoting the Travel Massive movement.
-							</p>
-						</div>
-						<div class="one-third">
-							<h2 class="m-bottom-25 read-more">Advisors</h2>
-							<p>
-								Individuals who create additional value and opportunities for Travel Massive and our community, through their own networks and their professional associations.							
-							</p>
-						</div>
-						<div class="one-third">
-							<h2 class="m-bottom-25 read-more">Global Council</h2>
-							<p>
-								An elected group representing the Travel Massive community from both individuals and companies who can contribute to the leadership of Travel Massive.
-							</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-
-			<div class="clear"></div>
-		</div>
-	</div>
-
-	<div class="section bcorp" id="bcorp">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-white-bg">
-					<span>Travel Massive Global P.B.C.</span>			
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-75">
-				We have chosen a Benefit Corporation as our legal entity, which strikes a balance between providing a free community and funding the resources to support it.		
-			</div>
-			<div class="two-third m-bottom-40">
-				<p>
-					Travel Massive is incorporated as a legal entity “Travel Massive Global P.B.C” – a Public Benefit Corporation, based in Delaware.	
-				</p>
-				<p>
-					As of November 2014 our approximate shareholding is as follows:<br><br>
-					<span>Ian Cumming (55%)<br>
-					<span>Founders and Advisors (12%)<br>
-					Private Investors (33%)</span>
-				</p>
-			</div>
-		
-			<div class="summary-small-dark-bg m-top-50 m-bottom-45">
-				A benefit corporation is a for-profit entity that wishes to consider society and the environment in addition to profit in their decision-making process - <a style="color: #555; text-decoration: underline;" href="http://en.wikipedia.org/wiki/Benefit_corporation"> Wikipedia</a>
-			</div>
-
-			<div class="clear"></div>
-		</div>
-	</div>
-
-	<div class="section team" id="team">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-white-bg">
-					<span>Travel Massive Team</span>			
-				</div>
-			</div>
-			<div class="clear"></div>
-			<div class="summary-small-white-bg m-top-50 m-bottom-75">
-				Say hello to Travel Massive.		
-			</div>
-
-			<div class="clear"></div>
-
-			<div class="one-third m-bottom-60">
-				<h2 class="m-bottom-25 read-more">Chapter Leaders</h2>
-
-					<a href="http://www.travelmassive.com/leaders"><img style="width: 128px;" src="/images/profiles/chapter_leaders.jpg"></a>
-
-					<p>
-						View and connect with 180+ Chapter Leaders on the Travel Massive's website at <a style="color: #555; text-decoration: underline;" href="http://www.travelmassive.com/leaders">travelmassive.com/leaders</a>
-					</p>
-
-
-			</div>
-
-			<div class="clear"></div>
-
-			<div class="list_carousel">
-				<ul id="news-slides">
-					<li>
-						<div class="one-third m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Global Team</h2>
-							<p>
-								<a href="https://travelmassive.com/ian"><img src="images/profiles/ianc.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Ian Cumming</span>
-								<br>Founder and Global Leader. Sydney
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:ian@travelmassive.com">ian@travelmassive.com</a>
-								<br>
-								<br>
-
-								<a href="https://travelmassive.com/ekbergh"><img src="images/profiles/stephan_ekbergh.jpg" style="height: 64px;"></a><br>
-								<span>Stephan Ekbergh</span>
-								<br>Director. Cape Town
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:stephan@travelmassive.com">stephan@travelmassive.com</a>
-								<br>
-								<br>
-
-								<a href="https://travelmassive.com/community/erikahelstrom"><img src="images/profiles/erika_helstrom.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Erika Helstrom</span>
-								<br>San Francisco
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:erika@travelmassive.com">erika@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/travelingjourno"><img src="images/profiles/cristina_ca.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Cristina Ca</span>
-								<br>Toronto
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:cristina@travelmassive.com">cristina@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/anulagalewska"><img src="images/profiles/anula_galewska.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Anula Galewska</span>
-								<br>Berlin
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:anula@travelmassive.com">anula@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/simlewis"><img src="images/profiles/simon_lewis.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Simon Lewis</span>
-								<br>Cape Town
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:simon@travelmassive.com">simon@travelmassive.com</a>
-							</p>
-						</div>
-						<div class="one-third">
-							<h2 class="m-bottom-25 read-more">Advisors</h2>
-							<p>
-								<a href="https://travelmassive.com/vdombrovsky"><img src="images/profiles/valentin_dombrovsky.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Valentin Dombrovsky</span>
-								<br>Excursopedia, Moscow
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:valentin@travelmassive.com">valentin@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="#"><img src="images/profiles/rani_francois_marie_saad.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Rani Francois-Marie Saad</span>
-								<br>Abacus International's Leadership Team, Singapore
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:rani_saad@abacus.com.sg">rani_saad@abacus.com.sg</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/community/keishibata"><img src="images/profiles/kei_shibata.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Kei Shibata</span>
-								<br>Travel.jp, Tokyo
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:kei@travelmassive.com">kei@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/community/maxkraynov"><img src="images/profiles/max_kraynov.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Max Kraynov</span>
-								<br>AviaSales, Sydney
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:max@travelmassive.com">max@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="#"><img src="images/profiles/bane_hunter.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Bane Hunter</span>
-								<br>BlueChilli, The Loop<br>Sydney and New York
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:max@travelmassive.com">bane@travelmassive.com</a>
-							</p>
-						</div>
-						<div class="one-third last m-bottom-60">
-							<h2 class="m-bottom-25 read-more">Ambassadors</h2>
-							<p>
-								<a href="https://travelmassive.com/community/bryonmerzeo"><img src="images/profiles/bryon_merzeo.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Bryon Merzeo</span>
-								<br>Sydney
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:simon@travelmassive.com">bryon@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="#"><img src="images/profiles/lauren_nichol.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Lauren Nicholl</span>
-								<br>New York
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:simon@travelmassive.com">lauren@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/dawnjorgensen"><img src="images/profiles/dawn_jorgensen.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Dawn Jorgensen</span>
-								<br>Cape Town
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:simon@travelmassive.com">dawn@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/okev"><img src="images/profiles/kevin_oshaughnessy.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Kevin O'Shaughnessy</span>
-								<br>Dublin
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:simon@travelmassive.com">kevin@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/polyana-deoliveira"><img src="images/profiles/polyana_erreira_de_oliveira.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Polyana Ferreira de Oliveira</span>
-								<br>São Paulo
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:simon@travelmassive.com">polyana@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/sergiofly"><img src="images/profiles/sergio_mello.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Sergio Mello</span>
-								<br>Taipei
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:sergio@travelmassive.com">sergio@travelmassive.com</a>
-							</p>
-						</div>
-					</li>
-					<li>
-						<div class="one-third">
-							<h2 class="m-bottom-25 read-more" style="margin-top: 2em;">Global Council</h2>
-							<p>
-								<a href="https://travelmassive.com/alicia-taggio"><img src="images/profiles/alicia_taggio.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Alicia Taggio</span>
-								<br>Flight Centre, Vancouver
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:taggio@travelmassive.com">taggio@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/community/michaelball"><img src="images/profiles/michael_ball.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Michael Ball</span>
-								<br>Traverse-Events.com, London
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:michael@travelmassive.com">michael@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/alicia"><img src="images/profiles/alicia_smith.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Alicia Smith</span>
-								<br>Footprints.org.au, Sydney
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:alicia@travelmassive.com">alicia@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/community/kelleyferro"><img src="images/profiles/kelley_ferro.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Kelley Ferro</span>
-								<br>Los Angeles
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:kelley@travelmassive.com">kelley@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/daamsie"><img src="images/profiles/peter_daams.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Peter Daams</span>
-								<br>TravellersPoint.com, Melbourne
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:peter@travelmassive.com">peter@travelmassive.com</a>
-							</p>
-						</div>
-
-						<div class="one-third">
-							<p style="margin-top: 4.6em;">
-								<br><a href="#"><img src="images/profiles/christina_tunnah.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Christina Tunnah</span>
-								<br>WorldNomads.com, San Francisco
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:christina.tunnah@travelmassive.com">christina.tunnah@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="#"><img src="images/profiles/daniele_beccari.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Daniele Beccari</span>
-								<br>Criteo.com, Paris
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:daniele@travelmassive.com">daniele@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/community/alexiakotsi"><img src="images/profiles/alexia_kotsi.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Alexia Kotsi</span>
-								<br>TravelPlanet24.gr, Athens
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:alexia@travelmassive.com">alexia@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/simonchristy"><img src="images/profiles/simon_christy.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Simon Christy</span>
-								<br>Alehap.vn, Saigon
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:simon.christy@travelmassive.com">simon.christy@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="https://travelmassive.com/community/bethwhitman"><img src="images/profiles/beth_whitman.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Beth Whitman</span>
-								<br>Seattle
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:beth@travelmassive.com">beth@travelmassive.com</a>
-							</p>
-						</div>
-
-						<div class="one-third last">
-							<p style="margin-top: 4.6em;">
-								<br><a href="#"><img src="images/profiles/pablo_martinez.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Pablo Martinez</span>
-								<br>GoEuro, Berlin
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:pablo@travelmassive.com">pablo@travelmassive.com</a>
-								<br>
-								<br>
-								<br><a href="https://travelmassive.com/community/julianegaebler"><img src="images/profiles/juliane_gaebler.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>Juliane Gaebler</span>
-								<br>Messe Berlin, Berlin
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:juliane@travelmassive.com">juliane@travelmassive.com</a>
-								<br>
-								<br>
-								<a href="#"><img src="images/profiles/david_cynkin.jpg" style="height: 64px; margin-right: 8px;"></a><br>
-								<span>David Cynkin</span>
-								<br>TBEX, San Diego
-								<br><a style="color: #555; text-decoration: underline;" href="mailto:dave@nmxevents.com">dave@nmxevents.com</a>
-								<br>
-								<br>
-							</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-
-			<div class="clear"></div>
-		</div>
-	</div>
-
-	<div class="chart">
-	</div>
-	<div class="section stucture" id="join">
-		<div class="container">
-			<div class="one-third m-top-115">
-				<div class="summary-dark-bg">
-					<span>Be Part Of Something Massive.</span>
-				</div>
-			</div>
-			<div class="clear"></div>
-
-			<div class="summary-small-white-bg m-top-50 m-bottom-25">
-				Do you want to be a part of our mission to change travel?
-				<br><br>
-				<span>Join Travel Massive in over <span class="num_cities">70</span> cities around the world.</span>
-			</div>
-
-			<div class="two-third m-top-75">
-				<p>
-					Join Travel Massive by heading over to <a style="color: #555; text-decoration: underline;" href="http://www.travelmassive.com">www.travelmassive.com</a> and create a profile on our community platform, join your local chapter and collaborate at our events, and <span>be part of something massive</span>.
-				</p>
-			</div>
-			<div class="one-third last m-top-75">
-				<p>
-					Are you interested in starting a Travel Massive Chapter in you city? <a style="color: #555; text-decoration: underline;" href="http://www.travelmassive.com">Learn more.</a>
-				</p>
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
-	<div class="map" id="map" style="width: 100%; height: 480px;"></div>
-	<div class="contact-form">
-		<div class="container">
-			<div class="one-half">
-				<p class="m-top-60">
-					<a name="contact"></a><span class="span-contact-form">Tell us your ideas. They might change the world.</span>
-					This is an open, public document, so please submit your editions to ian@travelmassive.com and we will review and update this document.
-				</p>
-				<form name="contact-form" id="contact-form" action="//formspree.io/team@travelmassive.com" method="post">
-					<label for="name">Name *</label>
-					<input type="text" id="name" name="name"/>
-					<label for="email">E-mail *</label>
-					<input type="text" id="email" name="email" />
-					<label for="subject">Subject *</label>
-					<input type="text" id="subject" name="subject"/>
-					<label for="message">Message *</label>
-					<textarea id="message" name="message" cols="42" rows="7"></textarea>
-				</form>
-				<button onClick="SendMail()" id="submit-mail" class="submit-btn">SUBMIT</button> 
-				<div id="mail-message"></div>
-			</div>
-			<div class="one-half last">
-				<p class="m-top-60 m-bottom-55">
-					Travel Massive P.B.C is a Public Benefit Corporation.
-				</p>
-				<p class="m-bottom-35">
-					385 Grove St<br />
-					San Francisco, CA 94102  <br />
-					United States
-				</p>
-
-				<p>
-					Phone: +1 779-999-0042 <br />
-					Email: info@travelmassive.com <br />
-					Website: <a href="www.travelmassive.org">www.travelmassive.org</a><br>
-					Community: <a href="www.travelmassive.com">www.travelmassive.com</a>
-				</p>
-
-				<div class="socio_contact">
-					<ul>
-						<li><a href="https://twitter.com/travelmassive" target="_blank" class="socio_contact_twitter"></a></li>
-						<li><a href="https://www.facebook.com/travelmassive" target="_blank" class="socio_contact_facebook"></a></li>
-						<!--<li><a href="#" target="_blank" class="socio_contact_dribbble"></a></li>
-						<li><a href="#" target="_blank" class="socio_contact_pinterest"></a></li>
-						<li class="last"><a href="#" target="_blank" class="socio_contact_flickr"></a></li>-->
-					</ul>
-				</div>
-
-			</div>
-			<div class="clear"></div>
-		</div>
-	</div>
-	<!--Container for an overlay--> 
-	<div class="ow-overlay ow-closed"></div>
-
-	<!--Popup content holder-->
-	<div class="dryThemePopupHolder"></div>
-	<footer>
-		<div class="container">	
+<body class="wide">
 	
-			<a name="signatures"></a>
 
-			<div style="width: 50%; margin: auto;">
-				<p style="text-align: left; color: #ddd;">
-					<span>Authors (in order of document revision)</span>
-					<br>Ian Cumming - Initial Version (November 2014)
-					<br>Erika Helstrom - Initial Version Edits (November 2014)
-					<br>Timothy O'Neil Dunne - Responsible Travel (November 2014)
-					<br>Bryon Merzeo - Global Tourism Statistics (December 2014)
-				</p>
+	<!-- WRAPPER -->
+	<div class="wrapper">
+
+		<!-- HEADER -->
+		<header id="header" class="header-transparent header-dark header-fullwidth">
+			<div id="header-wrap">
+				<div class="container">
+
+					<!--LOGO-->
+					<div id="logo">
+						<a href="index.html" class="logo" data-dark-logo="images/tm-logo-w.svg">
+							<img src="images/tm-logo-w.svg" alt="Travel Massive Logo" width="104" height="48">
+						</a>
+					</div>
+					<!--END: LOGO-->
+
+					<!--MOBILE MENU -->
+					<div class="nav-main-menu-responsive">
+						<button class="lines-button x" type="button" data-toggle="collapse" data-target=".main-menu-collapse">
+							<span class="lines"></span>
+						</button>
+					</div>
+					<!--END: MOBILE MENU -->
+
+					<!--TOP SEARCH -->
+					<div id="top-search"> <a id="top-search-trigger"><i class="fa fa-search"></i><i class="fa fa-close"></i></a>
+						<form action="https://travelmassive.com/blog/?op=Search" method="get">
+							<input type="text" name="s" class="form-control" value="" placeholder="Start typing & press  &quot;Enter&quot;">
+						</form>
+					</div>
+					<!--END: TOP SEARCH -->
+
+					<!--NAVIGATION-->
+					<div class="navbar-collapse collapse main-menu-collapse navigation-wrap">
+						<div class="container">
+							<nav id="mainMenu" class="main-menu mega-menu">
+								<ul class="main-menu nav nav-pills">
+									<li class="dropdown"><a href="javascript:void(0);" onClick="document.body.scrollTop = document.documentElement.scrollTop = 0;"><i class="fa fa-home"></i></a>
+									</li>
+									<li><a href="#purpose">Purpose</a></li>
+									<li><a href="#values">Values</a></li>
+									<li><a href="#community">Community</a></li>
+									<li><a href="#projects">Projects</a></li>
+									<li><a href="#bcorp">B Corp</a></li>
+									<li><a href="#founders">Founders</a></li>
+									<li><a href="#leaders">Leaders</a></li>
+
+									<li class="dropdown mega-menu-item"> <a href="#">Chapters<i class="fa fa-angle-down"></i></a>
+										<ul class="dropdown-menu">
+											<li class="mega-menu-content">
+												<div id="chapter_list" class="row"></div>
+												<a target="_blank" href="https://travelmassive.com/chapters/map" class="read-more"><i class="fa fa-globe"></i>View World Map</a>
+											</li>
+										</ul>
+									</li>
+									
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<!--END: NAVIGATION-->
+				</div>
+			</div>
+		</header>
+		<!-- END: HEADER -->
+
+
+		<!-- SECTION IMAGE FULLSCREEN -->
+		<section class="fullscreen background-dark text-light">
+			<div class="container">
+				<div class="container-fullscreen text-center">
+					<div class="text-middle">
+						<h4 data-animation="fadeInUp" data-animation-delay="700">Be part of something Massive.</h4>
+						<h1 data-animation="fadeIn" data-animation-delay="500" class="text-large"><span id="tm_chapter_names" class="text-rotator" data-rotate-effect="fadeIn" data-rotate-speed="2000">LOS ANGELES, NEW YORK CITY, BANGKOK</span> </h1>
+
+						<div data-animation="fadeInDown" data-animation-delay="900">
+							<a class="button transparent rounded" href="#community"><span>What Is Travel Massive?</span></a>
+						</div>
+						<div class="scrolldown-animation" id="scroll-down">
+							<a class="scroll-to" href="#purpose"><img src="images/scrolldown.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: SECTION IMAGE FULLSCREEN -->
+
+
+		<!-- PURPOSE -->
+		<a name="purpose"></a><section class="p-b-10">
+			<div class="container">	
+				<div class="heading heading-center">
+					<h2>OUR PURPOSE</h2>
+					<span class="lead" style="font-size: 20pt;">Travel Massive’s Mission is to <strong>unearth and connect</strong> travel insiders in every city in the world in order to <strong>create a purposeful change</strong> to the way we travel.</span>
+					<span class="lead" style="font-size: 12pt;">(Yes, that means creating the future of travel)</span>
+
+				</div>	
+			</div>
+		</section>
+		<!-- END: PURPOSE -->
+
+
+		<!-- COUNTERS -->
+		<a name="stats"></a><section class="background-grey text-dark">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-2">
+
+						<div class="text-center">
+							<div class="icon"><i class="fa fa-3x fa-hand-grab-o"></i></div>
+							<div class="counter"> <span id="stats_num_members" data-speed="3000" data-refresh-interval="50" data-to="15000" data-from="600" data-seperator="true"></span> </div>
+							<div class="seperator seperator-small"></div>
+							<p>MEMBERS</p>
+						</div>
+					</div>
+
+					<div class="col-md-2">
+
+						<div class="text-center">
+							<div class="icon"><i class="fa fa-3x fa-plane"></i></div>
+							<div class="counter"> <span id="stats_num_organizations" data-speed="3000" data-refresh-interval="23" data-to="125" data-from="100" data-seperator="true"></span> </div>
+							<div class="seperator seperator-small"></div>
+							<p>ORGANIZATIONS</p>
+						</div>
+					</div>
+
+					<div class="col-md-2">
+
+						<div class="text-center">
+							<div class="icon"><i class="fa fa-3x fa-globe"></i></div>
+							<div class="counter"> <span id="stats_num_countries" data-speed="3000" data-refresh-interval="23" data-to="50" data-from="100" data-seperator="true"></span> </div>
+							<div class="seperator seperator-small"></div>
+							<p>COUNTRIES</p>
+						</div>
+					</div>
+
+					<div class="col-md-2">
+
+						<div class="text-center">
+							<div class="icon"><i class="fa fa-3x fa-flag"></i></div>
+							<div class="counter"> <span id="stats_num_chapters" data-speed="3000" data-refresh-interval="23" data-to="125" data-from="100" data-seperator="true"></span> </div>
+							<div class="seperator seperator-small"></div>
+							<p>CHAPTERS</p>
+						</div>
+					</div>
+
+					<div class="col-md-2">
+
+						<div class="text-center">
+							<div class="icon"><i class="fa fa-3x fa-calendar"></i></div>
+							<div class="counter"> <span id="stats_num_events" data-speed="3000" data-refresh-interval="12" data-to="250" data-from="500" data-seperator="true"></span> </div>
+							<div class="seperator seperator-small"></div>
+							<p>COMMUNITY EVENTS</p>
+						</div>
+					</div>
+
+					<div class="col-md-2">
+
+						<div class="text-center">
+							<div class="icon"><i class="fa fa-3x fa-share-alt"></i></div>
+							<div class="counter"> <span id="stats_num_connections" data-speed="3000" data-refresh-interval="12" data-to="40000" data-from="20000" data-seperator="true"></span> </div>
+							<div class="seperator seperator-small"></div>
+							<p>CONNECTIONS</p>
+						</div>
+					</div>
+
+					<div class="col-md-12 text-center" style="margin-top: 32px;">
+					<span class="lead">Updated <strong>LIVE</strong> from our community platform - <a target="_blank" href="https://travelmassive.com">travelmassive.com</a></span>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- END: COUNTERS -->
+
+		<!-- VALUES -->
+		<a name="values"></a><section>
+			<div class="container">
+				<div class="heading heading-center">
+					<h2>OUR VALUES</h2>
+					<span class="lead">Travel Massive is an open and collaborative community founded on three simple principles – to be <mark>open to everyone</mark> in the travel industry, <mark>to be free</mark> to participate, and to <mark>connect and share ideas globally</mark>.</span>
+					<span class="lead">We follow six <strong>core values</strong> that guide our actions.</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-globe"></i></a>
+							</div>
+							<h3>Build Meaningful <br>Partnerships</h3>
+							<p>We want to help our members build meaningful, trusted relationships to help them be more successful. If we can help to build better relationships we can make the travel industry even more successful.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-lightbulb-o"></i></a>
+							</div>
+							<h3>Foster Innovation <br>And Big Ideas</h3>
+							<p>Our community can help entrepreneurs and thought leaders share disruptive ideas in tourism at a global level to create innovation. We want to help those creating big ideas to have access to partners, resources and support.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-trophy"></i></a>
+							</div>
+							<h3>Support Diversity <br>And New Talent</h3>
+							<p>New talent and increased diversity will enable the travel industry’s continued growth and success. We will support initiatives that foster learning, skills development and mentorship within the tourism industry globally.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-plane"></i></a>
+							</div>
+							<h3>Empower <br>Change In Travel</h3>
+							<p>Travel is an incredibly powerful tool for making the world a better place. We want to inspire a change in the way we travel that brings more meaning to people’s lives and that truly benefits everyone on the planet.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-leaf"></i></a>
+							</div>
+							<h3>Promote <br>Responsible Travel</h3>
+							<p>The development of the travel industry has a responsibility to ensure that we reduce our harm on the environment, cultures, and local economies. We must consider the  future impact of travel and tourism.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-heart-o"></i></a>
+							</div>
+							<h3>Create Happiness <br>Big And Small</h3>
+							<p>In everything that we do, we want to create happiness for our members and community. What we create with Travel Massive should be rewarding and fun - just like travel itself.</p>
+						</div>
+					</div>
+				</div>
 			</div>
 
-			<div class="clear"></div>
+		</section>
+		<!-- END: VALUES -->
 
-			<p style="color: #ddd; font-size: 10pt; margin: 0px;">
-				&copy; 2014 - 2015 Travel Massive Global P.B.C
-				<br>&nbsp;
-			</p>
+		<!-- COMMUNITY -->
+		<a name="community"></a><section class="background-grey p-b-10">
+			<div class="container">
+				<div class="heading heading-center">
+					<h2>OUR COMMUNITY</h2>
+					<span class="lead">We are a global network of locally connected communities of travel industry insiders who are making travel better in more than 50 countries.
+					</span>
 
+					<div style="width: 80%; margin: auto;"><div class="fluid-width-video-wrapper" style="padding-top: 56.25%;"><iframe src="https://www.youtube.com/embed/Dr1_76iTjlY?rel=0&amp;showinfo=0" allowfullscreen="" id="fitvid755965"></iframe></div></div>
+				
+					<div class="seperator p-b-0 p-t-0"><i class="fa fa-chevron-down"></i></div>
+
+					<h3>Who can join Travel Massive?</h3>
+					<span class="lead">Travel Massive membership is free and open to anyone who is involved in the travel industry and who believes in our <a href='#values'>values</a> and <a href='#purpose'>mission</a> statement.</span>
+
+					<a href="https://travelmassive.com/user/register" class="button color button-3d rounded icon-left"><span style="font-size: 14pt;">Join Now</span></a>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- END: COMMUNITY -->
+
+
+		<!-- PROJECTS -->
+		<a name="projects"></a><section>
+			<div class="container">
+				<div class="heading heading-center">
+					<h2>OUR PROJECTS</h2>
+					<span class="lead">Travel Massive projects are team-driven initiatives that deliver value to our community and address our <a href='#values'>core values</a>. Paid projects help to support services that we provide for free to our community.</span>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-globe"></i></a>
+							</div>
+							<h3>Travel Massive Community <span class="label label-success infinit">FREE</span></h3>
+							<p>The foundation of Travel Massive are free and open <a target="_blank" href="https://travelmassive.com/events">community events</a>. Community chapters are created by one or more chapter co-founders who volunteer to organize local events to connect and develop their local travel industry. Travel Massive events are non-profit but may be supported by local industry sponsors who assist with event costs.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-cubes"></i></a>
+							</div>
+							<h3>Travel Massive Platform <span class="label label-success infinit">FREE</span></h3>
+							<p>Our community platform provides a central place for membership and events world-wide. Members can host their own individual and company profiles, explore and connect with other members, and join their Travel Massive chapters. Our platform is actively developed and released under an open-source license on <a href="http://massiveplatform.com">massiveplatform.com</a>.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-newspaper-o"></i></a>
+							</div>
+							<h3>Travel Massive News <span class="label label-success infinit">FREE</span></h3>
+							<p>Through our <a target="_blank" href="https://travelmassive.com/blog">blog</a>, <a target="_blank" href="https://www.youtube.com/user/travelmassive/videos">video channels</a>, and <a target="_blank" href="https://soundcloud.com/travelmassive">podcast series</a>, our content team documents the achievements of Travel Massive members who are making an impact in travel and to share their story. Our interview series unearths and highlights the incredible achievements of change makers, startups, and innovative companies around the world.</p>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-money"></i></a>
+							</div>
+							<h3>Community Fund <span class="label label-success infinit">FREE</span></h3>
+							<p>The Travel Massive Community Fund will commit a percentage of revenue back to our community to support projects and initiatives of our members. This fund will be announced in more detail in Q2 2016.</p>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-cube"></i></a>
+							</div>
+							<h3>Travel Massive Marketplace <span class="label label-default infinit">PAID</span></h3>
+							<p>The marketplace is a place for our community to promote and discover tourism and travel industry opportunities such as jobs, partnerships, affiliates, destination marketing, content creation, startup services, investment and more. Learn more at <a target="_blank" href="https://travelmassive.com/marketplace">travelmassive.com/marketplace</a></p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-users"></i></a>
+							</div>
+							<h3>Travel Massive Workshops <span class="label label-default infinit">PAID</span></h3>
+							<p>Our <a target="_blank" href="https://travelmassive.com/events/list/workshop">workshops</a> provide an open platform for skills sharing that empower our community to share and learn from each other in an equitable way. Experts can earn by providing a  workshop for other members to learn a skill.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-star"></i></a>
+							</div>
+							<h3>Travel Massive Partnerships <span class="label label-default infinit">PAID</span></h3>
+							<p>Sponsored partnerships allow companies to engage with our community via featured articles and custom online campaigns. Sponsorship revenues assists with the funding of our community content and free services.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-lightbulb-o"></i></a>
+							</div>
+							<h3>Travel Massive Ventures <span class="label label-info infinit">Q2 2016</span></h3>
+							<p>Travel Massive Ventures is a platform for matching startups and entrepreneurs with the right investors, mentors and advisors.
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="icon-box effect medium light">
+							<div class="icon">
+								<a href="#"><i class="fa fa-fire"></i></a>
+							</div>
+							<h3>Pitch your project idea.</h3>
+							<p>Do you have a Travel Massive project you'd like to create? Will it benefit our community, be financially viable, and address our <a href="#values">core values</a>? If the answer is 'yes', we'd love to hear from you.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- END: COMMUNITY -->
+
+		<div class="seperator p-b-0 p-t-0"><i class="fa fa-chevron-down"></i>
 		</div>
 
-	</footer>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	<script>
-		
-		var map;
-	    var bounds = new google.maps.LatLngBounds();
-	    var mapOptions = {
-	        mapTypeId: 'roadmap',
-	        zoom: 2,
-	        minZoom: 2,
-	        scrollwheel: false
-	    };
+		<!-- BCORP -->
+		<a name="bcorp"></a><section class="p-b-10">
+			<div class="container">
+				<div class="heading heading-center">
+					<h2>B CORP</h2>
+					<span class="lead">Travel Massive is incorporated as a legal entity “Travel Massive Global P.B.C” – a Public Benefit Corporation, based in Delaware. This allows us to commercially fund support of our <a href="#projects">community projects</a>. </span>
 
-	    function initialize() {
+					<span class="lead" style="font-size: 12pt;"></span>
 
-		    // Display a map on the page
-		    map = new google.maps.Map(document.getElementById("map"), mapOptions);
+				</div>
 
-		    //map.setTilt(45);
-		        
-		    // Fetch Chapters and lat,lons from API and display them
-		    var url = 'https://www.travelmassive.com/api/public/chapters_lat_lon?callback=?';
-			markers = []
-			$.ajax({
-			   type: 'GET',
-			    url: url,
-			    dataType: 'jsonp',
-			    success: function(data) {
-			  		for (i = 0; i < data.chapters.length; i++) {
-			       		var chapter = data.chapters[i];
-			       		markers.push([chapter.title, chapter.lat, chapter.lon]);
-			       		//console.log(chapter);
-			       	}
-			       // initialize the map with the markers from the API
-			       initMap(markers); 
-			    },
-			    error: function(e) {
-			       console.log(e.message);
-			    }
-			});
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<blockquote class="blockquote-color text-light" style="margin-top: -32px;">
+					<p>A benefit corporation is a for-profit entity that wishes to consider society and the environment in addition to profit in their decision-making process.</p>
+					<small><cite><a href="http://en.wikipedia.org/wiki/Benefit_corporation">Wikipedia</a></cite></small> </blockquote>
+				</div>
+				<div class="col-md-3"></div>
 
-			// set community stats (chapters, countries, events)
-			var url = 'https://travelmassive.com/api/public/stats?callback=?';
-			$.ajax({
-			   type: 'GET',
-			    url: url,
-			    dataType: 'jsonp',
-			    success: function(data) {
-			    	$("#stats_num_events").html(parseInt(data.num_events) + 50); // add 50 because historical events only go back to April 2014
-					$("#stats_num_chapters").html(data.num_chapters);
-			    	$("#stats_num_chapter_countries").html(data.num_chapter_countries);
-			    	$(".num_cities").html(data.num_chapters);
-			    	$(".num_chapter_countries").html(data.num_chapter_countries);
-			    },
-			    error: function(e) {
-			       console.log(e.message);
-			    }
-			});
-		
-		}
+			</div>
+		</section>
+		<!-- END: BCORP -->
 
-		function initMap(markers) {
+		<div class="seperator p-b-0 p-t-0"><i class="fa fa-chevron-down"></i>
+		</div>
 
-			/*markers = [['Athens',	37.9667,	23.7167],
-				['Atlanta',	33.755,	-84.39],
-				['Austin',	30.25,	-97.75],
-				['Bangkok',	13.75,	100.4667],
-				['Berlin',	52.5167,	13.3833],
-				['Bilbao',	43.2569,	-2.9236],
-				['Boston',	42.3581,	-71.0636],
-				['Brisbane',	-27.4679,	153.0278],
-				['Brighton',	50.8429,	-0.1313],
-				['Brussels',	50.85,	4.35],
-				['Buenos Aires',	-34.6033,	-58.3817],
-				['Cape Town',	-33.9253,	18.4239],
-				['Cincinnati',	39.1,	-84.5167],
-				['Chicago',	41.8369,	-87.6847],
-				['Colorado',	39,	-105.5],
-				['Dallas',	32.7758,	-96.7967],
-				['Dublin',	53.3478,	-6.2597],
-				['Hong Kong',	22.267,	114.188],
-				['Houston',	29.7628,	-95.3831],
-				['Kiev',	50.45,	30.5233],
-				['London',	51.5072,	0.1275],
-				['Los Angeles',	34.05,	-118.25],
-				['Manchester',	53.4667,	-2.2333],
-				['Manila',	14.5833,	120.9667],
-				['Maui',	20.8,	-156.3333],
-				['Melbourne',	-37.8136,	144.9631],
-				['Milan',	45.4667,	9.1833],
-				['Montreal',	45.5,	-73.5667],
-				['Moscow',	55.75,	37.6167],
-				['Munich',	48.1333,	11.5667],
-				['New York City',	40.7127,	-74.0059],
-				['Oslo',	59.95,	10.75],
-				['Ottawa',	45.4214,	-75.6919],
-				['Paris',	48.8567,	2.3508],
-				['Philadelphia',	39.95,	-75.1667],
-				['Portland',	45.52,	-122.6819],
-				['Prague',	50.0833,	14.4167],
-				['Rio de Janeiro',	-22.9083,	-43.1964],
-				['Rome',	41.9,	12.5],
-				['Saigon',	10.75,	106.6667],
-				['Saint Petersburg',	59.95,	30.3],
-				['Salt Lake City',	40.75,	-111.8833],
-				['San Diego',	32.715,	-117.1625],
-				['San Francisco',	37.7833,	-122.4167],
-				['Santiago',	-33.45,	-70.6667],
-				['Sao Paulo',	-23.55,	-46.6333],
-				['Seattle',	47.6097,	-122.3331],
-				['Stockholm',	59.3294,	18.0686],
-				['Switzerland',	46.8333,	8.3333],
-				['Sydney',	-33.86,	151.2094],
-				['Taipei',	25.0333,	121.6333],
-				['Tel Aviv',	32.0833,	34.8],
-				['Toronto',	43.7,	-79.4],
-				['Vancouver',	49.25,	-123.1],
-				['Viana do Castelo',	41.7,	-8.8333],
-				['Warsaw',	52.2333,	21.0167],
-				['Washington D.C.',	38.8951,	-77.0367],
-				['Amsterdam' , 52.3667, 4.9000],
-				['Bali', -8.6500, 115.2167],
-				['Baltimore', 39.2833, -76.6167],
-				['Budapest', 47.4925, 19.0514],
-				['Calgary', 51.0500, -114.0667],
-				['Miami', 25.7877, -80.2241],
-				['Newcastle', 54.9667, -1.6000]];*/
+		<!-- STRUCTURE -->
+		<a name="structure"></a><section class="p-b-10">
+			<div class="container">	
+				<div class="heading heading-center">
+					<h2>OUR STRUCTURE</h2>
+					<span class="lead">We will continually strive to provide a structure that is scalable and transparent, and that allows our community to have a say.</span>
+				</div>	
 
-		    // Display multiple markers on a map
-		    var infoWindow = new google.maps.InfoWindow(), marker, i;
-		    
-		    // Loop through our array of markers & place each one on the map  
-		    for( i = 0; i < markers.length; i++ ) {
-		        var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
-		        bounds.extend(position);
-		        marker = new google.maps.Marker({
-		            position: position,
-		            map: map,
-		            title: markers[i][0]
-		        });
-		        
-		        // Allow each marker to have an info window    
-		        google.maps.event.addListener(marker, 'click', (function(marker, i) {
-		            return function() {
-		                infoWindow.setContent("<div class='info_content'><p style='white-space: nowrap;'>" + markers[i][0] + "</p></div>");
-		                infoWindow.open(map, marker);
-		            }
-		        })(marker, i));
+				<div class="col-md-6">
 
-		        // Automatically center the map fitting all markers on the screen
-		        map.fitBounds(bounds);
-		    }
-		}
+					<div class="panel panel-primary">
+						<div class="panel-heading">Advisory Board</div>
+						<div class="panel-body">
 
-	</script>
+							<p>The advisory board consists of the <mark><a href="#founders">Founding Investors</a></mark> of Travel Massive who have financially supported the organization to achieve its overall <mark><a href="#mission">Mission</a></mark>.</mark></p>
+
+						</div>
+					</div>
+
+					<div class="panel panel-primary">
+						<div class="panel-heading">Project Teams</div>
+						<div class="panel-body">
+
+							<p>Project Teams are are responsible for delivering each <mark><a href="#projects">Travel Massive Project</a></mark> initiative to the community. Projects are funded based on their own merit.</p>
+
+							<p>Project Teams consist of a Project Leader, and one of more team members. Teams regularly report their activities and progress to the Advisory Board. </p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="panel panel-primary">
+						<div class="panel-heading">Chapter Leaders</div>
+						<div class="panel-body">
+
+							<p><mark><a href="#leaders">Chapter Leaders are motivated by creating networking and learning opportunities to benefit the development of their local travel industry.</a></mark></p>
+
+							<p>By founding a local Travel Massive chapter, Chapter Leaders volunteer their time to organize regular events in their cities to connect members of the travel and tourism industry to meet, share ideas, and collaborate at free and open events.</p>
+
+							<p><mark><a href="#projects">The Community Team</a></mark> provides Chapter Leaders assistance through regional community support managers.</p>
+
+							<p>Community Support Managers are responsible for providing guidance and support resources to Chapter Leaders, helping new Chapter Leaders to join, and assisting with finding opportunities such as speakers and sponsors for their events.</p>
+							
+						</div>
+					</div>
+				</div>
+
+				<div style="text-align: center;">
+					<a target="_blank" href="https://travelmassive.com/blog/start-a-chapter-guide/" class="button color button-3d rounded icon-left"><span style="font-size: 14pt;">Learn About Starting A Chapter</span></a>
+				</div>
+
+			</div>
+
+		</section>
+		<!-- END: STRUCTURE -->
+
+		<div class="seperator p-b-0 p-t-0"><i class="fa fa-chevron-down"></i>
+		</div>
+
+		<!-- FOUNDERS -->
+		<a name="founders"></a><section class="p-b-10">
+			<div class="container">	
+				<div class="heading heading-center">
+					<h2>FOUNDING INVESTORS</h2>
+					<span class="lead">Travel Massive is supported by brave pioneers of the travel industry who personally back our <a href="#purpose">mission to unearth travel innovation</a> at a global level.</span>
+
+					<span class="lead" style="font-size: 12pt;">(For investor relations, please find us on <a href="https://angel.co/travelmassive">angel.co/travelmassive)</span>
+
+				</div>	
+
+				<div class="row" style="width: 80%; margin: auto;">
+
+					<div class="col-md-3">
+						<div class="image-box circle-image small">
+							<a target="_blank" href="https://travelmassive.com/ian"><img src="images/profiles/ian_profile.jpg" alt=""></a>
+						</div>
+
+						<div class="image-box-description text-center">
+							<h4>Ian Cumming</h4>
+							<p class="subtitle">Founder, Travel Massive</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="image-box circle-image small">
+							<a target="_blank" href="https://travelmassive.com/ekbergh"><img src="images/profiles/stephan_profile.jpg" alt=""></a>
+						</div>
+
+						<div class="image-box-description text-center">
+							<h4>Stephan Ekbergh</h4>
+							<p class="subtitle">Founder, TravelStart Group</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="image-box circle-image small">
+							<a target="_blank" href="https://travelmassive.com/keishibata"><img src="images/profiles/kei_profile.jpg" alt=""></a>
+						</div>
+
+						<div class="image-box-description text-center">
+							<h4>Kei Shibata</h4>
+							<p class="subtitle">CEO Venture Republic</p>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="image-box circle-image small">
+							<a target="_blank" href="https://travelmassive.com/hugoburge"><img src="images/profiles/hugo_profile.jpg" alt=""></a>
+						</div>
+
+						<div class="image-box-description text-center">
+							<h4>Hugo Burge</h4>
+							<p class="subtitle">CEO Momondo Group</p>
+						</div>
+					</div>
+
+
+
+				</div>
+
+				
+			</div>
+		</section>
+		<!-- END: FOUNDERS -->
+
+
+		<div class="seperator p-b-0 p-t-0"><i class="fa fa-chevron-down"></i>
+		</div>
+
+		<!-- LEADERS -->
+		<a name="leaders"></a><section>
+			<div class="container">
+				<div class="heading heading-center">
+					<h2>COMMUNITY LEADERS</h2>
+					<span class="lead">More than <span id="stats_num_chapter_leaders">200</span> incredible leaders all around the world have co-founded Travel Massive Chapters in their cities. They're our community heroes.</span>
+
+					<span class="lead" style="font-size: 12pt;">(Please welcome our newest chapter leaders below. Say hello!)</span>
+
+				</div>
+
+				<div id="chapter_leaders"></div>
+
+			</div>
+		</section>
+		<!-- LEADERS -->
+
+		<!-- EVENTS -->
+		<section id="events" class="background-grey">
+			<div class="container">
+
+				<div class="heading heading-center">
+					<h2>UPCOMING EVENTS</h2>
+					<span class="lead">Travel Massive has <mark>brought together more than <span id="stats_num_event_registrations">12081</span> attendees</mark> at over <span id="stats_num_events_total">602</span> events around the world to meet and share ideas about the future of travel.
+					</span>
+
+				</div>
+				
+			</div>
+
+			<div id="next_events">
+				<div class="container">
+
+					<!-- Next events post-->
+					<div id="tm_next_events" class="post-content  post-block post-modern post-2-columns post-light-background">						
+					</div>
+					
+				</div>
+			</div>
+
+			<div style="text-align: center;">
+				<a target="_blank" href="https://travelmassive.com/events" class="button color button-3d rounded icon-left"><span style="font-size: 14pt;">Find An Event Near You</span></a>
+			</div>
+
+		</section>
+		<!-- END: EVENTS -->
+
+		<!-- FOOTER -->
+		<footer class="background-dark text-grey" id="footer">
+			<div class="footer-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="footer-logo float-left" style="margin-top: 8px; margin-bottom: 24px;">
+								<img src="images/tm-logo-w.svg" alt="Travel Massive Logo" width="104" height="48">
+							</div>
+							<p style="margin-top: 0px;"><strong>Our story</strong>. Travel Massive started on the rooftop of a Sydney youth hostel in 2010 as a gathering of curious people who came together to share ideas about the travel industry. The event grew to regular monthly gatherings attracting hundreds of travel industry insiders, startups and content creators who came to create connections and share ideas.
+Shortly after, two expat members returning home to Toronto and London launched the first international chapters and created the beginning of the Travel Massive movement. The rest is history - and the future.
+							</p>
+
+						</div>
+					</div>
+					<div class="seperator seperator-dark seperator-simple"></div>
+					<div class="row">
+
+
+						<div class="col-md-4">
+							<div class="widget clearfix widget-contact-us" style="background-image: url('images/world-map.png'); background-position: 50% 55px; background-repeat: no-repeat">
+								<h4 class="widget-title">Contact us</h4>
+								<ul class="list-large list-icons">
+									<li><i class="fa fa-map-marker"></i>
+										<strong>Address:</strong> 639 Clay St, Suite #201
+										<br>San Francisco, CA 94111</li>
+									<li><i class="fa fa-phone"></i><strong>Phone:</strong> +1 (779) 999-0042 </li>
+									<li><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:hello@travelmassive.com">hello@travelmassive.com</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-5">
+
+							<h5>SHARED ON #TRAVELMASSIVE</h5>
+
+							<!-- INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/3cb136fa5e4f51f9ae07f2f5c51871a5.html" id="instansive_3cb136fa5e" name="instansive_3cb136fa5e"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="copyright-content">
+				<div class="container">
+					<div class="row">
+						<div class="copyright-text col-md-6"> &copy; 2016 Travel Massive Global P.B.C. All Rights Reserved. Contribute on <a href="https://github.com/travelmassive/travelmassive.github.io">GitHub</a>.
+						</div>
+						<div class="col-md-6">
+							<div class="social-icons">
+								<ul>
+									<li class="social-facebook"><a href="https://facebook.com/travelmassive"><i class="fa fa-facebook"></i></a></li>
+									<li class="social-twitter"><a href="https://twitter.com/travelmassive"><i class="fa fa-twitter"></i></a></li>
+									<!--<li class="social-google"><a href="https://plus.google.com/+Travelmassive"><i class="fa fa-google-plus"></i></a></li>-->
+									<!--<li class="social-pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>-->
+									<li class="social-linkedin"><a href="http://www.linkedin.com/company/travel-massive"><i class="fa fa-linkedin"></i></a></li>
+									<!--<li class="social-dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+									<li class="social-youtube"><a href="https://www.youtube.com/user/travelmassive/videos"><i class="fa fa-youtube-play"></i></a></li>
+
+									<li class="social-vimeo"><a href="https://vimeo.com/travelmassive"><i class="fa fa-vimeo-square"></i></a></li>
+
+									<li class="social-snapchat"><a href="https://www.youtube.com/channel/UCPlRSuANJ98Cqb0dAnpvByQ"><i class="fa fa-snapchat" style='color: yellow;'></i></a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END: FOOTER -->
+
+	</div>
+	<!-- END: WRAPPER -->
+
+	<!-- GO TOP BUTTON -->
+	<a class="gototop gototop-button" href="#"><i class="fa fa-chevron-up"></i></a>
+
+	<!-- Theme Base, Components and Settings -->
+	<script src="js/theme-functions.js"></script>
+
+	<!-- Custom js file -->
+	<script src="js/custom.js"></script>
+
+
+
 </body>
+
 </html>
