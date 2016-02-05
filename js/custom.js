@@ -34,7 +34,7 @@ function getEventDateMonth(str) {
   "July", "August", "September", "October", "November", "December"
 ];
 	var parts = str.split(" ")[0].split("-");
-	return monthNames[parseInt(parts[1])];
+	return monthNames[parseInt(parts[1])-1];
 }
 
 // ie: 2016-02-19 
