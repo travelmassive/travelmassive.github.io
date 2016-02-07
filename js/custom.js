@@ -85,7 +85,14 @@ $( document ).ready(function() {
 				// Step 1. list chapter names
 				for (i = 0; i < data.chapters.length; i++) {
 					var chapter = data.chapters[i];
-					chapter_names.push(chapter.title);
+
+					// tidy up special cases of chapter names
+					if (chapter.title == "San Francisco Bay Area") {
+						chapter_names.push("San Francisco");
+					} else {
+						//chapter_names.push(chapter.title);
+					}
+					
 				}
 
 				text_rotate = shuffleArray(chapter_names).join(",");
