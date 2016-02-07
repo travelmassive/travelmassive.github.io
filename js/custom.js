@@ -90,7 +90,7 @@ $( document ).ready(function() {
 					if (chapter.title == "San Francisco Bay Area") {
 						chapter_names.push("San Francisco");
 					} else {
-						//chapter_names.push(chapter.title);
+						chapter_names.push(chapter.title);
 					}
 					
 				}
