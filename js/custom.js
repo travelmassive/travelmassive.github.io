@@ -89,6 +89,9 @@ $( document ).ready(function() {
 					// tidy up special cases of chapter names
 					if (chapter.title == "San Francisco Bay Area") {
 						chapter_names.push("San Francisco");
+					} else if (chapter.title == "Cologne and Düsseldorf") {
+						chapter_names.push("Cologne");
+						chapter_names.push("Düsseldorf");
 					} else {
 						chapter_names.push(chapter.title);
 					}
