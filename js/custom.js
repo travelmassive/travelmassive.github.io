@@ -143,8 +143,8 @@ $( document ).ready(function() {
 				$("#stats_num_members").attr("data-to", data.num_members);
 				$("#stats_num_members").countTo({ formatter: formatStat });
 
-				$("#stats_num_countries").attr("data-from", data.num_chapter_countries / 2);
-				$("#stats_num_countries").attr("data-to", data.num_chapter_countries);
+				$("#stats_num_countries").attr("data-from", data.num_member_countries / 2);
+				$("#stats_num_countries").attr("data-to", data.num_member_countries);
 				$("#stats_num_countries").countTo({ formatter: formatStat });
 
 				$("#stats_num_chapters").attr("data-from", data.num_chapters / 2);
