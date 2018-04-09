@@ -915,6 +915,9 @@ body {
     .padded-link {
       background-position: 0px 2.1rem !important;
     }
+    .paragraph-footer { 
+      font-size: 18px;
+    }
     .big-text {
       font-size: 20px;
       line-height: 1.45em; } }
@@ -935,6 +938,9 @@ body {
   @media (min-width: 770px) {
     .padded-link {
       background-position: 0px 3.5rem !important;
+    }
+    .paragraph-footer { 
+      font-size: 24px;
     }
     .big-text {
       font-size: 35px; } }
