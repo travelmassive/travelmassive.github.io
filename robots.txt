@@ -1,0 +1,5 @@
+# not yet ready to be indexed
+User-agent: *
+Disallow: /js
+Disallow: /images
+Disallow: /css
