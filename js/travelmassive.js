@@ -174,25 +174,25 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
    
     // Fetch Chapters from API and display them
-	window.chaptersCallback = function(data) {
+	/*window.chaptersCallback = function(data) {
 		renderChapters(data);
 	};
 
 	var url = tm_base_url + '/api/public/chapters_lat_lon?callback=chaptersCallback';
 	var scriptElChapters = document.createElement('script');
 	scriptElChapters.setAttribute('src', url);
-	document.body.appendChild(scriptElChapters);
+	document.body.appendChild(scriptElChapters);*/
 
 
 	// Fetch Chapters Leaders from API and display them
-	window.chaptersLeadersCallback = function(data) {
+	/*window.chaptersLeadersCallback = function(data) {
 		renderChapterLeaders(data);
 	};
 
 	var url = tm_base_url + '/api/public/chapter_leaders?callback=chaptersLeadersCallback';
 	var scriptElLeaders = document.createElement('script');
 	scriptElLeaders.setAttribute('src', url);
-	document.body.appendChild(scriptElLeaders);
+	document.body.appendChild(scriptElLeaders);*/
 
 	// Fetch Community Stats from API and display them
 	window.communityStatsCallback = function(data) {
